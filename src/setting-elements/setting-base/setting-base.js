@@ -22,7 +22,6 @@ import { html } from '@polymer/polymer/polymer-element.js';
 import { BaseElement } from '../../base-element/base-element.js';
 /** Base class for a family of setting elements */
 let SettingBase = class SettingBase extends BaseElement {
-    /** Base class for a family of setting elements */
     constructor() {
         super(...arguments);
         /** Element name */

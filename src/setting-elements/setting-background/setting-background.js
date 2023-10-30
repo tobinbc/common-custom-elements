@@ -19,10 +19,9 @@ import '@polymer/paper-item/paper-item.js';
 import '@polymer/paper-ripple/paper-ripple.js';
 import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from 'chrome-ext-utils/src/analytics.js';
 /** Polymer element to select a background style */
 let SettingBackgroundElement = class SettingBackgroundElement extends SettingBase {
-    /** Polymer element to select a background style */
     constructor() {
         super(...arguments);
         /** Selected backed style */

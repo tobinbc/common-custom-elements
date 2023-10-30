@@ -19,12 +19,11 @@ import '@polymer/paper-item/paper-item.js';
 import '@polymer/neon-animation/animations/fade-out-animation.js';
 import '@polymer/neon-animation/animations/scale-up-animation.js';
 import { BaseElement } from '../base-element/base-element.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
-import * as ChromeLocale from '@opus1269/chrome-ext-utils/src/locales.js';
-import * as ChromeUtils from '@opus1269/chrome-ext-utils/src/utils.js';
+import * as ChromeGA from 'chrome-ext-utils/src/analytics.js';
+import * as ChromeLocale from 'chrome-ext-utils/src/locales.js';
+import * as ChromeUtils from 'chrome-ext-utils/src/utils.js';
 /** Polymer dialog to confirm an action */
 let ConfirmDialogElement = class ConfirmDialogElement extends BaseElement {
-    /** Polymer dialog to confirm an action */
     constructor() {
         super(...arguments);
         /** Confirm button label */

@@ -21,10 +21,9 @@ import '@polymer/paper-item/paper-item-body.js';
 import '@polymer/paper-item/paper-item.js';
 import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 import { SettingBase } from '../setting-base/setting-base.js';
-import { DEF_TIME } from '@opus1269/chrome-ext-utils/src/time.js';
+import { DEF_TIME } from 'chrome-ext-utils/src/time.js';
 /** Polymer element for time entry */
 let SettingTimeElement = class SettingTimeElement extends SettingBase {
-    /** Polymer element for time entry */
     constructor() {
         super(...arguments);
         /** Time value '00:00' 24 hr format */

@@ -22,7 +22,7 @@ import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
 import {SettingBase} from '../setting-base/setting-base.js';
 
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from 'chrome-ext-utils/src/analytics.js';
 
 /** Polymer element for text entry */
 @customElement('setting-text')

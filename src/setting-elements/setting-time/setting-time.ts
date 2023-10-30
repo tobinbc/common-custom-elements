@@ -21,7 +21,7 @@ import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 
 import {SettingBase} from '../setting-base/setting-base.js';
 
-import {DEF_TIME} from '@opus1269/chrome-ext-utils/src/time.js';
+import {DEF_TIME} from 'chrome-ext-utils/src/time.js';
 
 /** Polymer element for time entry */
 @customElement('setting-time')

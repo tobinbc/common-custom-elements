@@ -14,10 +14,9 @@ import '@polymer/paper-item/paper-item.js';
 import '@polymer/paper-listbox/paper-listbox.js';
 import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from 'chrome-ext-utils/src/analytics.js';
 /** Polymer element to select an item from a list */
 let SettingDropdownElement = class SettingDropdownElement extends SettingBase {
-    /** Polymer element to select an item from a list */
     constructor() {
         super(...arguments);
         /** Selected menu item index */

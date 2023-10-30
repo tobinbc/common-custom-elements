@@ -21,10 +21,9 @@ import '@polymer/paper-item/paper-item-body.js';
 import '@polymer/paper-item/paper-item.js';
 import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from 'chrome-ext-utils/src/analytics.js';
 /** Polymer element for text entry */
 let SettingTextElement = class SettingTextElement extends SettingBase {
-    /** Polymer element for text entry */
     constructor() {
         super(...arguments);
         /** Text value */

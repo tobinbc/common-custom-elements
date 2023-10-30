@@ -16,7 +16,7 @@
 import {dedupingMixin} from '@polymer/polymer/lib/utils/mixin.js';
 import {PolymerElement} from '@polymer/polymer/polymer-element.js';
 
-import * as ChromeLocale from '@opus1269/chrome-ext-utils/src/locales.js';
+import * as ChromeLocale from 'chrome-ext-utils/src/locales.js';
 
 /**
  * Element class mixin that provides API for chrome.i8n

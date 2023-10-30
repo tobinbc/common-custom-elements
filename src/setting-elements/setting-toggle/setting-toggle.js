@@ -23,7 +23,7 @@ import '@polymer/paper-ripple/paper-ripple.js';
 import '@polymer/paper-toggle-button/paper-toggle-button.js';
 import '@polymer/app-storage/app-localstorage/app-localstorage-document.js';
 import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from 'chrome-ext-utils/src/analytics.js';
 /** Polymer element for a toggle button */
 let SettingToggleElement = class SettingToggleElement extends SettingBase {
     /**

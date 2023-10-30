@@ -20,7 +20,6 @@ import '@polymer/neon-animation/animations/scale-up-animation.js';
 import { BaseElement } from '../base-element/base-element.js';
 /** Polymer dialog to display an error */
 let ErrorDialogElement = class ErrorDialogElement extends BaseElement {
-    /** Polymer dialog to display an error */
     constructor() {
         super(...arguments);
         /** Display confirm button state */

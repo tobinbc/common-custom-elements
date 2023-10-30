@@ -16,7 +16,6 @@ import '@polymer/paper-spinner/paper-spinner.js';
 import { BaseElement } from '../base-element/base-element.js';
 /** Polymer element to display waiter for lengthy operations */
 let WaiterElement = class WaiterElement extends BaseElement {
-    /** Polymer element to display waiter for lengthy operations */
     constructor() {
         super(...arguments);
         /** Visible and active state */

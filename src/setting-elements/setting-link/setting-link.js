@@ -20,10 +20,9 @@ import '@polymer/iron-icon/iron-icon.js';
 import '@polymer/paper-item/paper-icon-item.js';
 import '@polymer/paper-ripple/paper-ripple.js';
 import { SettingBase } from '../setting-base/setting-base.js';
-import * as ChromeGA from '@opus1269/chrome-ext-utils/src/analytics.js';
+import * as ChromeGA from 'chrome-ext-utils/src/analytics.js';
 /** Polymer element for a url link */
 let SettingLinkElement = class SettingLinkElement extends SettingBase {
-    /** Polymer element for a url link */
     constructor() {
         super(...arguments);
         /** Description */
